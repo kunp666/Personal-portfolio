@@ -1220,7 +1220,9 @@ img{
 footer{
     margin-bottom: 50px;
 }
-
+footer p{
+    text-decoration:none;
+}
 
 /* 3d navbar */
 span.rubberBand {
