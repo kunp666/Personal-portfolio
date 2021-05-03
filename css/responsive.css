@@ -1,0 +1,120 @@
+@media(max-width: 835px){
+.home-section .home-text, .about-section .about-info, .about-section .about-img, .home-section .home-img{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.home-section .home-text{
+    order: 2;
+}
+.home-section .home-text{
+    text-align: center;
+}
+.home-section .full-screen{
+    padding: 100px 0;
+}
+.about-section .about-info{
+    order: 2;
+}
+.wrapper{
+    position: relative;
+    left: 10%;
+}
+.aboutme-btn{
+    top: 380px;
+}
+.effect-4{
+    top:10%;
+}
+/* .about-img{
+    display: none;
+} */
+.about-section .timeline .timeline-item:nth-child(odd){
+    padding-right: 15px;
+    text-align: left;
+    padding-left: 75px;
+}
+.about-section .timeline .timeline-item:nth-child(even){
+    padding-left: 75px;
+}
+.about-section .timeline:before{
+    left:35px;
+}
+.about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
+    left:-30px;
+}
+.about-section .timeline .timeline-item:nth-child(odd) .icon{
+    right: auto;
+    left: -60px;
+}
+.about-section .timeline .timeline-item:nth-child(even) .icon {
+    left: -60px;
+}
+.about-section .timeline .timeline-item{
+    margin-bottom: 40px;
+}
+}
+
+@media(max-width: 690px){
+.home-section .home-text h1{
+        font-size: 20px;
+    }
+span.rubberBand{
+        font-size: 50px;
+    }
+    .effect-2{
+        left: 5%;
+    }
+}
+@media (max-width:600px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .home-section .home-text h1{
+        font-size: 20px;
+    }
+    span.rubberBand{
+        font-size: 40px;
+    }
+    .effect-2{
+        bottom: 5%;
+    }
+    .nav-menu-inner{
+        min-height: 45vh;
+        margin-right: 40px;
+    }
+    .wrapper{
+        left: -10%;
+        margin: 100px 20px;
+    }
+    .aboutme-btn{
+        top: 520px;
+    }
+    .about-section .skills .skill-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .nav-menu ul li a{
+        font-size: 1px;
+    }
+    .service-section .service-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio-section .portfolio-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio-popup .info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact-section .contact-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact-section .w-50{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
